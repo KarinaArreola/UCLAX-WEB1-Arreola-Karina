@@ -7,7 +7,7 @@ function App() {
 
     return (
         <div className="App">
-            <img src={reactLogo} alt="React Logo" width="300" />
+            UCLA web-1-Arreola-Karina
         </div>
     );
 }
