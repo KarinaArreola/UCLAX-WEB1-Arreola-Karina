@@ -7,7 +7,7 @@ function App() {
 
     return (
         <div className="App">
-            UCLA web-1-Arreola-Karina
+            UCLA web-1-Arreola-Karina change 1
         </div>
     );
 }
