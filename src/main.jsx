@@ -4,6 +4,9 @@ import ReactDOM from "react-dom/client";
 /*---------React Router DOM ------*/
 import { HashRouter } from "react-router-dom";
 
+/* Media Queries ------------*/
+import { MediaQueryProvider } from "@/Common/useMediaQuery";
+
 /*--------- Components ------*/
 
 import App from "./App";
@@ -14,6 +17,8 @@ import "./Common/css/global.scss";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <HashRouter>
-        <App />
+        <MediaQueryProvider>
+            <App />
+        </MediaQueryProvider>
     </HashRouter>
 );
