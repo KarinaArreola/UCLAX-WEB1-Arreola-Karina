@@ -409,6 +409,86 @@ const Essays = () => {
                     </p>
                 </div>
             </Essay>
+            <Essay question="Q7: Define the following Agile roles: Product Owner, Product Manager, Business Analyst, Scrum Master, UX designer, Developer/Engineer, QA/SDET, and DevOps.">
+                <div>
+                    <p>
+                        <h5>Product Owner</h5> The Product Owner is a key
+                        stakeholder who represents the customer's voice and
+                        ensures that the development team builds the right
+                        product features and functionalities. They define and
+                        prioritize the product backlog, gather requirements, and
+                        provide clear guidance to the team on what needs to be
+                        developed.
+                    </p>
+                    <p>
+                        <h5>Product Manager</h5> The Product Manager is
+                        responsible for the overall vision, strategy, and
+                        success of the product. They work closely with the
+                        Product Owner to align the product development with
+                        business goals. They also analyze market trends,
+                        customer feedback, and competitive landscape to make
+                        informed decisions about the product roadmap.
+                    </p>
+                    <p>
+                        <h5>Business Analyst</h5> The Business Analyst acts as a
+                        bridge between the business stakeholders and the
+                        development team. They gather and document detailed
+                        requirements, create user stories, and ensure that the
+                        team understands the business needs. They play a crucial
+                        role in translating business requirements into
+                        actionable tasks for the development team.
+                    </p>
+                    <p>
+                        <h5>Scrum Master</h5> The Scrum Master is a facilitator
+                        and coach for the development team, helping them adhere
+                        to the principles of Agile and the Scrum framework. They
+                        remove impediments, ensure the team's collaboration, and
+                        organize Scrum events. The Scrum Master ensures that the
+                        team follows Agile practices and continuously improves
+                        their processes.
+                    </p>
+                    <p>
+                        <h5>UX Designer</h5> The User Experience (UX) Designer
+                        focuses on creating a user-friendly and intuitive
+                        product experience. They work on designing the user
+                        interface, interactions, and overall user journey. Their
+                        goal is to ensure that the product meets user needs and
+                        provides a positive user experience.
+                    </p>
+                    <p>
+                        <h5>Developer/Engineer</h5> Developers or Engineers are
+                        responsible for writing code, developing features, and
+                        implementing technical solutions based on the
+                        requirements provided by the Product Owner or Business
+                        Analyst. They work collaboratively in cross-functional
+                        teams to deliver working software increments.
+                    </p>
+                    <p>
+                        <h5>QA/SDET (Software Development Engineer in Test)</h5>
+                        QA professionals or SDETs are responsible for ensuring
+                        the quality of the product by creating and executing
+                        test plans, conducting various types of testing
+                        (functional, regression, performance, etc.), and
+                        automating tests to ensure consistent and reliable
+                        testing processes.
+                    </p>
+                    <p>
+                        <h5>DevOps</h5> DevOps is a set of practices that
+                        emphasizes collaboration and communication between
+                        development and operations teams. DevOps engineers work
+                        to automate and streamline the deployment, testing, and
+                        monitoring processes to ensure rapid and reliable
+                        software delivery. They focus on improving the overall
+                        development lifecycle.
+                    </p>
+                    <p>
+                        Each of the above roles contributes to the success of
+                        Agile projects by bringing their expertise and
+                        collaboration to deliver valuable products iteratively
+                        and adaptively.
+                    </p>
+                </div>
+            </Essay>
         </EssaysStyled>
     );
 };
