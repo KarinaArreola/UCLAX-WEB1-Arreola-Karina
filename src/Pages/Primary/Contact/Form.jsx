@@ -5,23 +5,21 @@ import axios from "axios";
 
 const Form = ({ getSubmissions }) => {
     // Name
-    const [inputName, inputNameUpdate] = useState("Slim Shady");
+    const [inputName, inputNameUpdate] = useState("Whats your name?");
     const inputNameOnChange = (e) => {
         const theValue = e.target.value;
         inputNameUpdate(theValue);
     };
 
     // Email
-    const [inputEmail, inputEmailUpdate] = useState("Slim@Shady.com");
+    const [inputEmail, inputEmailUpdate] = useState("example@usaswimming.org");
     const inputEmailOnChange = (e) => {
         const theValue = e.target.value;
         inputEmailUpdate(theValue);
     };
 
     // Message
-    const [inputMessage, inputMessageUpdate] = useState(
-        "My name is Slim Shady!"
-    );
+    const [inputMessage, inputMessageUpdate] = useState("How can we help!");
     const inputMessageOnChange = (e) => {
         const theValue = e.target.value;
         inputMessageUpdate(theValue);
@@ -100,6 +98,7 @@ const FormStyled = styled.form`
         width: 100%;
         background-color: #eee;
         border: solid 1px #999;
+        color: #808080;
 
         &:focus {
             background-color: white;
@@ -111,7 +110,7 @@ const FormStyled = styled.form`
     }
 
     button {
-        background-color: teal;
+        background-color: #041e42;
         padding: 10px 5px;
         color: white;
         width: 150px;
@@ -122,11 +121,11 @@ const FormStyled = styled.form`
 
         &:hover,
         &:focus {
-            background-color: #015353;
+            background-color: #00b3e4;
         }
         &:active,
         &:focus {
-            background-color: #002020;
+            background-color: #00b3e4;
         }
     }
 `;
