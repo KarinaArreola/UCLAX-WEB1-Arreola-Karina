@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 /*Components ------------*/
-import StaffBio from "./StaffBio";
+import StaffBio from "./ItemDescription";
 
 const StaffMember = ({ member }) => {
     return (
@@ -26,7 +26,7 @@ const StaffMemberStyled = styled.div`
     h3 {
         font-size: 20px;
         color: white;
-        background-color: #004444;
+        background-color: #041e42;
         margin: 0px;
         padding: 5px 10px;
     }

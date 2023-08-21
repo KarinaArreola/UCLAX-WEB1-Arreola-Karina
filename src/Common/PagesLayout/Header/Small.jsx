@@ -43,7 +43,7 @@ const Small = () => {
                         Home
                     </NavLink>
                     <NavLink onClick={hideMenu} to={"/staff"}>
-                        Staff
+                        Swim Shop
                     </NavLink>
                     <NavLink onClick={hideMenu} to={"/contact"}>
                         Contact

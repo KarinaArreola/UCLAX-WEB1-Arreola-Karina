@@ -6,7 +6,7 @@ import PagesLayout from "./Common/PagesLayout/PagesLayout";
 /* Pages: Primary --------------------*/
 import PrimaryLayout from "./Pages/Primary/PrimaryLayout";
 import Home from "./Pages/Primary/Home/Home";
-import Staff from "./Pages/Primary/Staff/Staff";
+import Staff from "./Pages/Primary/Staff/SwimShop";
 import Contact from "./Pages/Primary/Contact/Contact";
 
 /* Pages: Course Work --------------------*/
