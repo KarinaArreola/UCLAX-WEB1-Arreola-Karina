@@ -9,8 +9,10 @@ import Item from "./Item/Item";
 const SwimShopItemsList = () => {
     return (
         <SwimShopItemsListStyled className="SwimShopItemsList">
-            {swimShopData.map((member) => {
-                return <Item key={member.id} member={member} />;
+            {swimShopData.map((swimShopItem) => {
+                return (
+                    <Item key={swimShopItem.id} swimShopItem={swimShopItem} />
+                );
             })}
         </SwimShopItemsListStyled>
     );

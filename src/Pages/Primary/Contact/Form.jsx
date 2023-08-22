@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { v4 as uuidv4 } from "uuid";
 import axios from "axios";
 
+import Button from "@/Common/Button";
+
 const Form = ({ getSubmissions }) => {
     // Name
     const [inputName, inputNameUpdate] = useState("Whats your name?");
@@ -73,7 +75,7 @@ const Form = ({ getSubmissions }) => {
                 />
             </div>
 
-            <button type="submit">Send</button>
+            <Button>Send</Button>
         </FormStyled>
     );
 };
@@ -107,25 +109,5 @@ const FormStyled = styled.form`
 
     textarea {
         height: 150px;
-    }
-
-    button {
-        background-color: #041e42;
-        padding: 10px 5px;
-        color: white;
-        width: 150px;
-        border: none;
-        outline: none;
-
-        cursor: pointer;
-
-        &:hover,
-        &:focus {
-            background-color: #00b3e4;
-        }
-        &:active,
-        &:focus {
-            background-color: #00b3e4;
-        }
     }
 `;

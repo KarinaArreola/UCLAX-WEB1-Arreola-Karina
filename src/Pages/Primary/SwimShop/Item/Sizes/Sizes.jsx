@@ -6,8 +6,12 @@ const Sizes = ({ sizes }) => {
 
 export default Sizes;
 
-const SizesStyled = styled.table`
-    margin: 8px;
-    padding: 20px;
-    font-size: medium;
+const SizesStyled = styled.div`
+    /* display: block | inline | inline-block */
+    display: inline-block;
+
+    margin: 4px;
+    padding: 16px 20px;
+    font-size: 16px;
+    border: solid 1px #c4c4c4;
 `;

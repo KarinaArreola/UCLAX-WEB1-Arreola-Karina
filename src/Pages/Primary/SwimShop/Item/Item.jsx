@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 /*Components ------------*/
-import StaffBio from "./ItemDescription";
+import ItemDescription from "./ItemDescription";
 
-const Item = ({ member }) => {
+const Item = ({ swimShopItem }) => {
     return (
         <ItemStyled className="Item">
-            <img src={member.image} alt={member.name} />
-            <h3>{member.name}</h3>
-            <StaffBio member={member} />
+            <img src={swimShopItem.image} alt={swimShopItem.name} />
+            <h3>{swimShopItem.name}</h3>
+            <ItemDescription swimShopItem={swimShopItem} />
         </ItemStyled>
     );
 };

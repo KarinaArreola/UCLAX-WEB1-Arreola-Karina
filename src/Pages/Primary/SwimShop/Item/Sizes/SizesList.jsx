@@ -3,10 +3,10 @@ import styled from "styled-components";
 /*Components ------------*/
 import Sizes from "./Sizes";
 
-const SizesList = ({ member }) => {
+const SizesList = ({ swimShopItem }) => {
     return (
         <SizesListStyled className="SizesList">
-            {member.sizes.map((sizes, idx) => {
+            {swimShopItem.sizes.map((sizes, idx) => {
                 return <Sizes key={idx} sizes={sizes} />;
             })}
         </SizesListStyled>
@@ -15,4 +15,6 @@ const SizesList = ({ member }) => {
 
 export default SizesList;
 
-const SizesListStyled = styled.div``;
+const SizesListStyled = styled.div`
+    padding-top: 16px;
+`;
