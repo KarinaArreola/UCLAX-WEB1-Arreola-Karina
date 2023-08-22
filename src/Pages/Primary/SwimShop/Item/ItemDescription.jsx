@@ -3,10 +3,10 @@ import styled from "styled-components";
 /*Components ------------*/
 import SizesList from "./Sizes/SizesList";
 
-const Item = ({ member }) => {
+const ItemDescription = ({ member }) => {
     return (
-        <ItemStyled className="Item">
-            <div className="description">
+        <ItemDescriptionStyled className="ItemDescription">
+            <div className="item-description">
                 <b>Description: </b>
                 {member.description}
             </div>
@@ -15,14 +15,19 @@ const Item = ({ member }) => {
                 <b>Price: </b>
                 {member.price}
             </div>
-        </ItemStyled>
+        </ItemDescriptionStyled>
     );
 };
 
-export default Item;
+export default ItemDescription;
 
-const ItemStyled = styled.div`
-    padding: 20px;
+const ItemDescriptionStyled = styled.div`
+    padding: 16px;
     font-size: 14px;
     line-height: 1.5rem;
+
+    .price {
+        font-size: 24px;
+        margin-top: 32px;
+    }
 `;

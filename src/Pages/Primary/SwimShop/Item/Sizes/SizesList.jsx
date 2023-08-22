@@ -15,7 +15,4 @@ const SizesList = ({ member }) => {
 
 export default SizesList;
 
-const SizesListStyled = styled.ul`
-    padding-left: 20px;
-    list-style: disc;
-`;
+const SizesListStyled = styled.div``;

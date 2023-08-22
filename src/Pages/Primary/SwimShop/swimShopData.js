@@ -26,7 +26,7 @@ export const swimShopData = [
         image: image2,
         description:
             "Engineered for race day performance, the Vanquisher suit collection combines lightweight dual fabrications with strategically placed seaming providing a flexible secure fit and the right amount of compression. Fast, Powerful, Flexible... Vanquisher.",
-        name: "SVanquisher Solid Jammer",
+        name: "Vanquisher Solid Jammer",
         price: "$100.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },

@@ -6,4 +6,8 @@ const Sizes = ({ sizes }) => {
 
 export default Sizes;
 
-const SizesStyled = styled.li``;
+const SizesStyled = styled.table`
+    margin: 8px;
+    padding: 20px;
+    font-size: medium;
+`;

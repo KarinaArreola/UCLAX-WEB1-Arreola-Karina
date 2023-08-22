@@ -13,7 +13,7 @@ import Slide from "./Slide";
 const SlideList = () => {
     return (
         <SlideListStyled className="SlideList">
-            <Carousel>
+            <Carousel autoPlay={true}>
                 {slidesData.map((slide) => {
                     return <Slide key={slide.id} slide={slide} />;
                 })}

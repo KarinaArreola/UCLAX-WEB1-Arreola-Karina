@@ -4,17 +4,17 @@ import styled from "styled-components";
 import Inset from "@/Common/PagesLayout/Inset";
 import ItemsList from "./SwimShopItemsList";
 
-const Items = () => {
+const SwimShop = () => {
     return (
-        <ItemsStyled className="SwimShop">
+        <SwimShopStyled className="SwimShop">
             <Inset>
                 <h1>Swim Shop</h1>
                 <ItemsList />
             </Inset>
-        </ItemsStyled>
+        </SwimShopStyled>
     );
 };
 
-export default Items;
+export default SwimShop;
 
-const ItemsStyled = styled.div``;
+const SwimShopStyled = styled.div``;

@@ -3,19 +3,19 @@ import styled from "styled-components";
 /*Components ------------*/
 import StaffBio from "./ItemDescription";
 
-const StaffMember = ({ member }) => {
+const Item = ({ member }) => {
     return (
-        <StaffMemberStyled className="StaffMember">
+        <ItemStyled className="Item">
             <img src={member.image} alt={member.name} />
             <h3>{member.name}</h3>
             <StaffBio member={member} />
-        </StaffMemberStyled>
+        </ItemStyled>
     );
 };
 
-export default StaffMember;
+export default Item;
 
-const StaffMemberStyled = styled.div`
+const ItemStyled = styled.div`
     background-color: #eee;
 
     img {
@@ -24,10 +24,11 @@ const StaffMemberStyled = styled.div`
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 24px;
+        line-height: 2rem;
         color: white;
         background-color: #041e42;
         margin: 0px;
-        padding: 5px 10px;
+        padding: 8px 16px;
     }
 `;
