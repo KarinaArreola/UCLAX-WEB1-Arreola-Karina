@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 /*Components ------------*/
 import SizesList from "./Sizes/SizesList";
+import CounterApp from "./CounterApp/CounterApp";
 import Button from "@/Common/Button";
 
 const ItemDescription = ({ swimShopItem }) => {
@@ -16,6 +17,9 @@ const ItemDescription = ({ swimShopItem }) => {
             <SizesList class="size-list" swimShopItem={swimShopItem} />
             <div className="price">
                 <b>{swimShopItem.price}</b>
+            </div>
+            <div>
+                <CounterApp />
             </div>
             <div>
                 <Button onClick={addToCart}>Add to Cart</Button>
@@ -37,7 +41,7 @@ const ItemDescriptionStyled = styled.div`
         margin-bottom: 32px;
     }
 
-    button {
-        /* background-color: red; */
+    .counter-app {
+        margin-bottom: 20px;
     }
 `;

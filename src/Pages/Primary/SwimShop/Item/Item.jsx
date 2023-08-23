@@ -7,16 +7,16 @@ import ItemDescription from "./ItemDescription";
 
 const Item = ({ swimShopItem }) => {
     return (
-            <ItemStyled>
-                <Zoom
-                    height={500}
-                    width={830}
-                    zoomScale={3}
-                    src={swimShopItem.image}
-                />
-                <h3>{swimShopItem.name}</h3>
-                <ItemDescription swimShopItem={swimShopItem} />
-            </ItemStyled>
+        <ItemStyled>
+            <Zoom
+                height={350}
+                width={"100%"}
+                zoomScale={3}
+                src={swimShopItem.image}
+            />
+            <h3>{swimShopItem.name}</h3>
+            <ItemDescription swimShopItem={swimShopItem} />
+        </ItemStyled>
     );
 };
 
