@@ -1,22 +1,22 @@
 import styled from "styled-components";
 
-import { Zoom } from "react-img-hover-zoom";
+import Zoom from "react-zoom-image-hover";
 
 /*Components ------------*/
 import ItemDescription from "./ItemDescription";
 
 const Item = ({ swimShopItem }) => {
     return (
-        <ItemStyled className="Item">
-            <Zoom
-                height={500}
-                width={830}
-                zoomScale={3}
-                <img src={swimShopItem.image} alt={swimShopItem.name} />
-            />
-            <h3>{swimShopItem.name}</h3>
-            <ItemDescription swimShopItem={swimShopItem} />
-        </ItemStyled>
+            <ItemStyled>
+                <Zoom
+                    height={500}
+                    width={830}
+                    zoomScale={3}
+                    src={swimShopItem.image}
+                />
+                <h3>{swimShopItem.name}</h3>
+                <ItemDescription swimShopItem={swimShopItem} />
+            </ItemStyled>
     );
 };
 
