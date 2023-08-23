@@ -31,6 +31,7 @@ const ItemDescription = ({ swimShopItem }) => {
 export default ItemDescription;
 
 const ItemDescriptionStyled = styled.div`
+    color: #4c4c4c;
     padding: 16px;
     font-size: 14px;
     line-height: 1.5rem;
@@ -39,9 +40,5 @@ const ItemDescriptionStyled = styled.div`
         font-size: 24px;
         margin-top: 32px;
         margin-bottom: 32px;
-    }
-
-    .counter-app {
-        margin-bottom: 20px;
     }
 `;
