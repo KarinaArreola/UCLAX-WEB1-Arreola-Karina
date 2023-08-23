@@ -7,7 +7,7 @@ export const tabbedData = [
         id: 1,
         image: image1,
         title: "About",
-        text: "<p>Welcome to <b>Adrian's swim world!</b> At just 13 years old, Adrian is making a splash in the world of competitive swimming. With a passion for the water that knows no bounds, he dives into every pool with determination and drive. Hailing from a small town, Adrian's journey to the pool podium has been fueled by countless laps, early morning practices, and an unwavering commitment to his craft.</p>",
+        text: "<p>Welcome to <b>Adrian's swim world!</b> At just 13 years old, Adrian is making a splash in the world of competitive swimming. With a passion for the water that knows no bounds, he dives into every pool with determination and drive. Hailing from a South Pasadena, CA, Adrian's journey to the pool podium has been fueled by countless laps, early morning practices, and an unwavering commitment to his craft.</p>",
     },
     {
         id: 2,

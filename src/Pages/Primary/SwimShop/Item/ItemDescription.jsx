@@ -12,8 +12,11 @@ const ItemDescription = ({ swimShopItem }) => {
     return (
         <ItemDescriptionStyled className="ItemDescription">
             <div className="item-description">{swimShopItem.description}</div>
+
             <SizesList class="size-list" swimShopItem={swimShopItem} />
-            <div className="price">{swimShopItem.price}</div>
+            <div className="price">
+                <b>{swimShopItem.price}</b>
+            </div>
             <div>
                 <Button onClick={addToCart}>Add to Cart</Button>
             </div>

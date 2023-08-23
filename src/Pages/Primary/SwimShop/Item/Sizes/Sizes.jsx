@@ -11,7 +11,7 @@ const SizesStyled = styled.div`
     display: inline-block;
 
     margin: 4px;
-    padding: 16px 20px;
+    padding: 8px 12px;
     font-size: 16px;
     border: solid 1px #c4c4c4;
 `;

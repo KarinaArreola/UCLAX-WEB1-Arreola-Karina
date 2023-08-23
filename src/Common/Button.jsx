@@ -12,17 +12,16 @@ export default Button;
 
 const ButtonStyled = styled.button`
     background-color: #041e42;
-    padding: 10px 5px;
+    padding: 16px 32px;
     color: white;
-    width: 150px;
+    border-radius: 8px;
     border: none;
-    outline: none;
 
     cursor: pointer;
 
     &:hover,
     &:focus {
-        background-color: #00b3e4;
+        background-color: #083b82;
     }
     &:active,
     &:focus {

@@ -17,4 +17,8 @@ const SwimShop = () => {
 
 export default SwimShop;
 
-const SwimShopStyled = styled.div``;
+const SwimShopStyled = styled.div`
+    h1 {
+        display: none;
+    }
+`;
