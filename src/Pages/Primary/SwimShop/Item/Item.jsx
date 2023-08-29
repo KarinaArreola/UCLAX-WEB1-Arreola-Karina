@@ -23,7 +23,7 @@ const Item = ({ swimShopItem }) => {
 export default Item;
 
 const ItemStyled = styled.div`
-    background-color: #eee;
+    background-color: #ffffff;
 
     img {
         width: 100%;
