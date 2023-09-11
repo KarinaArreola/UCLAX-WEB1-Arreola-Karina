@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 /* Data ------------*/
 import { swimShopData } from "./swimShopData";
-import Price from "./Item/price";
 
 /*Components ------------*/
 import Item from "./Item/Item";

@@ -18,6 +18,7 @@ const ItemExpanded = () => {
                     swimShopItem={swimShopItem}
                     zoomScale={3}
                     hasBoxShadow={false}
+                    hasTruncatedDescription={false} // Disable text truncation
                 />
                 <ItemDescription swimShopItem={swimShopItem} />
             </InsetHalf>

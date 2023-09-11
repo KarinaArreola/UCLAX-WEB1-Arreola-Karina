@@ -1,14 +1,21 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-
 import Zoom from "react-zoom-image-hover";
 import Price from "./price";
 
 /* Data ------------*/
 
-const Item = ({ swimShopItem, zoomScale = 3, hasBoxShadow = true }) => {
+const Item = ({
+    swimShopItem,
+    zoomScale = 3,
+    hasBoxShadow = true,
+    hasTruncatedDescription = true,
+}) => {
     return (
-        <ItemStyled hasBoxShadow={hasBoxShadow}>
+        <ItemStyled
+            hasBoxShadow={hasBoxShadow}
+            hasTruncatedDescription={hasTruncatedDescription}
+        >
             <Link to={`/item-expanded/${swimShopItem.id}`}>
                 <Zoom
                     height={350}
@@ -19,13 +26,21 @@ const Item = ({ swimShopItem, zoomScale = 3, hasBoxShadow = true }) => {
                 {swimShopItem.name}
 
                 <div className="item-description">
-                    {swimShopItem.description}
+                    {hasTruncatedDescription
+                        ? truncateDescription(swimShopItem.description)
+                        : swimShopItem.description}
                 </div>
                 <Price swimShopItem={swimShopItem} />
             </Link>
         </ItemStyled>
     );
 };
+
+// Helper function to truncate the description
+function truncateDescription(description) {
+    // Use CSS to limit to 2 lines
+    return description;
+}
 
 export default Item;
 
@@ -40,7 +55,10 @@ const ItemStyled = styled.div`
         margin-bottom: 16px;
         padding-right: 16px;
         display: -webkit-box;
-        -webkit-line-clamp: 2; /* Limit to 2 lines */
+        -webkit-line-clamp: ${({ hasTruncatedDescription }) =>
+            hasTruncatedDescription
+                ? "2"
+                : "none"}; // Conditionally truncate to 2 lines
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
