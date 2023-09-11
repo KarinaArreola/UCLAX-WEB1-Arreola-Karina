@@ -67,7 +67,7 @@ const MediumLargeStyled = styled.div`
             text-align: center;
             font-size: 12px;
             opacity: 0.8;
-            color: #00b3e4;
+            color: #7bdffa;
             font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;
@@ -75,7 +75,7 @@ const MediumLargeStyled = styled.div`
             &:hover,
             &:active,
             &:focus {
-                opacity: 1;
+                color: #fff;
             }
 
             &.active {
