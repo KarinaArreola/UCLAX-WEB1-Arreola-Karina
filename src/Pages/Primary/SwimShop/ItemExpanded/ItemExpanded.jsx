@@ -14,7 +14,11 @@ const ItemExpanded = () => {
     return (
         <ItemExpandedStyled className="ItemExpanded">
             <InsetHalf>
-                <Item swimShopItem={swimShopItem} zoomScale={3} />
+                <Item
+                    swimShopItem={swimShopItem}
+                    zoomScale={3}
+                    hasBoxShadow={false}
+                />
                 <ItemDescription swimShopItem={swimShopItem} />
             </InsetHalf>
         </ItemExpandedStyled>

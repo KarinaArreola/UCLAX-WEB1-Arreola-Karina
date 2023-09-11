@@ -6,9 +6,9 @@ import Price from "./price";
 
 /* Data ------------*/
 
-const Item = ({ swimShopItem, zoomScale = 3 }) => {
+const Item = ({ swimShopItem, zoomScale = 3, hasBoxShadow = true }) => {
     return (
-        <ItemStyled>
+        <ItemStyled hasBoxShadow={hasBoxShadow}>
             <Link to={`/item-expanded/${swimShopItem.id}`}>
                 <Zoom
                     height={350}
@@ -62,11 +62,13 @@ const ItemStyled = styled.div`
         text-decoration: none;
     }
 
-    /* Your default styles here */
-    box-shadow: none; /* Start with no shadow */
-    transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+    /* Conditional box-shadow initially hidden */
+    box-shadow: none;
+    transition: box-shadow 0.3s ease;
 
     &:hover {
-        box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+        /* Apply the box-shadow on hover when hasBoxShadow is true */
+        box-shadow: ${({ hasBoxShadow }) =>
+            hasBoxShadow ? "0 0px 8px rgba(0, 0, 0, 0.1)" : "none"};
     }
 `;
