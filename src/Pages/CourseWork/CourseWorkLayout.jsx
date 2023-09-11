@@ -3,22 +3,19 @@ import { Outlet, NavLink } from "react-router-dom";
 
 /* Component --------------------- */
 import Inset from "@/Common/PagesLayout/Inset";
+import YouTube from "./YouTube";
 
 const CourseWorkLayout = () => {
     return (
         <CourseWorkLayoutStyled className="CourseWorkLayout">
             <Inset>
-                <h1>Course Work</h1>
-                <nav className="sublinks">
-                    <NavLink to="/course-work" end>
-                        Essays
-                    </NavLink>
-                    <NavLink to="/course-work/sun-and-moon">
-                        Sun And Moon
-                    </NavLink>
-                    <NavLink to="/course-work/responsive">Responsive</NavLink>
-                </nav>
-                <Outlet />
+                <h1>Featured Videos</h1>
+                <p>
+                    Follow the latest videos inspired by the current and
+                    upcoming world and local championships and swim-related
+                    news.{" "}
+                </p>
+                <YouTube />
             </Inset>
         </CourseWorkLayoutStyled>
     );
