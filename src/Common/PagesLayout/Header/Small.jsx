@@ -42,14 +42,14 @@ const Small = () => {
                     <NavLink onClick={hideMenu} to={"/"} end>
                         Home
                     </NavLink>
-                    <NavLink onClick={hideMenu} to={"/staff"}>
+                    <NavLink onClick={hideMenu} to={"/swim-shop"}>
                         Swim Shop
                     </NavLink>
-                    <NavLink onClick={hideMenu} to={"/contact"}>
-                        Contact
+                    <NavLink onClick={hideMenu} to={"/videos"}>
+                        Videos
                     </NavLink>
-                    <NavLink onClick={hideMenu} to={"/course-work"}>
-                        Course
+                    <NavLink onClick={hideMenu} to={"/contact"}>
+                        Contact Us
                     </NavLink>
                 </nav>
             )}
@@ -66,9 +66,15 @@ const SmallStyled = styled.div`
     justify-content: center;
 
     .SiteLogo {
-        height: 300;
-        padding: 20px;
-        max-width: 330px;
+        height: 10%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        max-width: 100px;
+        position: relative;
+
+        left: -35%;
+        right: 0px;
+        bottom: 0px;
     }
 
     .mainMenu {

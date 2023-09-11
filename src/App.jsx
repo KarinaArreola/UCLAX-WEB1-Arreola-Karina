@@ -11,10 +11,7 @@ import Contact from "./Pages/Primary/Contact/Contact";
 import ItemExpanded from "./Pages/Primary/SwimShop/ItemExpanded/ItemExpanded";
 
 /* Pages: Course Work --------------------*/
-import CourseWorkLayout from "./Pages/CourseWork/CourseWorkLayout";
-import Essays from "./Pages/CourseWork/Essays/Essays";
-import SunAndMoon from "./Pages/CourseWork/SunAndMoon/SunAndMoon";
-import Responsive from "./Pages/CourseWork/Responsive";
+import Videos from "./Pages/CourseWork/Videos";
 
 const App = () => {
     return (
@@ -22,7 +19,7 @@ const App = () => {
             <Route element={<PagesLayout />}>
                 <Route element={<PrimaryLayout />} path="">
                     <Route element={<Home />} path="" />
-                    <Route element={<SwimShop />} path="staff" />
+                    <Route element={<SwimShop />} path="swim-shop" />
                     <Route
                         element={<ItemExpanded />}
                         path="item-expanded/:swimShopId"
@@ -30,11 +27,7 @@ const App = () => {
                     <Route element={<Contact />} path="contact" />
                 </Route>
 
-                <Route element={<CourseWorkLayout />} path="course-work">
-                    <Route element={<Essays />} path="" />
-                    <Route element={<SunAndMoon />} path="sun-and-moon" />
-                    <Route element={<Responsive />} path="responsive" />
-                </Route>
+                <Route element={<Videos />} path="videos"></Route>
             </Route>
         </Routes>
     );

@@ -98,12 +98,18 @@ const FormStyled = styled.form`
         font-size: 20px;
         padding: 10px;
         width: 100%;
-        background-color: #eee;
+        background-color: white;
         border: solid 1px #999;
-        color: #808080;
+        color: #bdbdbd;
+
+        &:hover {
+            border: solid 1px #041e42;
+            color: #a0a0a0;
+        }
 
         &:focus {
             background-color: white;
+            color: #808080;
         }
     }
 

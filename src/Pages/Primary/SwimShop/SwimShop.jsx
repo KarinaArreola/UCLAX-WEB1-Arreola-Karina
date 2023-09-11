@@ -9,7 +9,9 @@ const SwimShop = () => {
             <Inset>
                 <img className="cart" src={shopingCart} alt="shoping cart" />
             </Inset>
-            <ItemsList />
+            <Inset>
+                <ItemsList />
+            </Inset>
         </SwimShopStyled>
     );
 };
@@ -19,7 +21,6 @@ export default SwimShop;
 const SwimShopStyled = styled.div`
     .cart {
         width: 32px;
-        margin-top: -16px;
         margin-right: 16px;
         float: right;
     }

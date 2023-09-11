@@ -1,11 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import YouTubePlayer from "youtube-player";
 
-const YouTubePlayerComponent = () => {
+const YouTube = () => {
     const playerRef = useRef(null);
 
     useEffect(() => {
-        // Replace 'YOUR_VIDEO_ID' with the actual YouTube video ID you want to play.
         const videoId = "8dPFP8HfVbg";
 
         // Initialize the YouTube player.
@@ -29,4 +28,4 @@ const YouTubePlayerComponent = () => {
     return <div id="player"></div>;
 };
 
-export default YouTubePlayerComponent;
+export default YouTube;

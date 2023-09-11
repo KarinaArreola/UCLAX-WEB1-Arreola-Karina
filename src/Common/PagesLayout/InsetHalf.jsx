@@ -7,7 +7,7 @@ const Inset = ({ children }) => {
 export default Inset;
 
 const InsetStyled = styled.div`
-    max-width: 600px;
+    max-width: 640px;
     margin: auto;
     padding: 0px 10px;
 `;
