@@ -36,8 +36,8 @@ const HomeStyled = styled.div`
     }
 
     p {
-        line-height: 1.5rem;
-        font-size: 16px;
+        line-height: 1.75rem;
+        font-size: 18px;
         color: #505050;
         padding-left: 64px;
         padding-right: 64px;

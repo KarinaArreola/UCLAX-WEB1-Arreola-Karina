@@ -11,4 +11,6 @@ const Slide = ({ slide }) => {
 
 export default Slide;
 
-const SlideStyled = styled.div``;
+const SlideStyled = styled.div`
+    max-height: 660px;
+`;

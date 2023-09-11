@@ -26,8 +26,8 @@ export default Videos;
 
 const VideosStyled = styled.main`
     p {
-        line-height: 1.5rem;
-        font-size: 16px;
+        line-height: 1.75rem;
+        font-size: 18px;
         color: #505050;
     }
 `;
