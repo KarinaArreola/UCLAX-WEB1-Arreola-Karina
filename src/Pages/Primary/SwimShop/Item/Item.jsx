@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import Zoom from "react-zoom-image-hover";
-import Price from "./price";
+import Price from "./Price";
 
 /* Data ------------*/
 
@@ -46,6 +46,7 @@ export default Item;
 
 const ItemStyled = styled.div`
     background-color: #fff;
+    height: 100%; /* Fill the vertical space of the parent container */
 
     .item-description {
         color: #4c4c4c;
@@ -74,7 +75,6 @@ const ItemStyled = styled.div`
         line-height: 2rem;
         font-weight: bold;
         padding-left: 16px;
-        padding-bottom: 16px;
         display: block;
         color: #041e42;
         text-decoration: none;
@@ -89,4 +89,6 @@ const ItemStyled = styled.div`
         box-shadow: ${({ hasBoxShadow }) =>
             hasBoxShadow ? "0 0px 8px rgba(0, 0, 0, 0.1)" : "none"};
     }
+
+    flex: 1; /* Fill the vertical space of the parent container */
 `;

@@ -7,7 +7,7 @@ import Button from "@/Common/Button";
 
 const Form = ({ getSubmissions }) => {
     // Name
-    const [inputName, inputNameUpdate] = useState("Whats your name?");
+    const [inputName, inputNameUpdate] = useState("What's your name?");
     const inputNameOnChange = (e) => {
         const theValue = e.target.value;
         inputNameUpdate(theValue);
