@@ -17,10 +17,10 @@ export default CounterButton;
 const CounterButtonStyled = styled.button`
     font-size: 24px;
     padding: 8px 16px;
-    color: #041e42;
     border-radius: 8px;
     border-width: 1px;
     border-color: #041e42;
+    background-color: #fff;
     margin-bottom: 32px;
 
     cursor: pointer;

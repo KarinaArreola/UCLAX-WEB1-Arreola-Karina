@@ -8,6 +8,7 @@ import PrimaryLayout from "./Pages/Primary/PrimaryLayout";
 import Home from "./Pages/Primary/Home/Home";
 import SwimShop from "./Pages/Primary/SwimShop/SwimShop";
 import Contact from "./Pages/Primary/Contact/Contact";
+import ItemExpanded from "./Pages/Primary/SwimShop/ItemExpanded/ItemExpanded";
 
 /* Pages: Course Work --------------------*/
 import CourseWorkLayout from "./Pages/CourseWork/CourseWorkLayout";
@@ -22,6 +23,10 @@ const App = () => {
                 <Route element={<PrimaryLayout />} path="">
                     <Route element={<Home />} path="" />
                     <Route element={<SwimShop />} path="staff" />
+                    <Route
+                        element={<ItemExpanded />}
+                        path="item-expanded/:swimShopId"
+                    />
                     <Route element={<Contact />} path="contact" />
                 </Route>
 

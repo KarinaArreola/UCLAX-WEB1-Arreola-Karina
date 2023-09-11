@@ -15,7 +15,6 @@ const CounterApp = () => {
 
     return (
         <div className="counter">
-            <h1>Counter App</h1>
             <CounterButton onClick={decrement}> - </CounterButton>
             <StyledCount>{count}</StyledCount>
             <CounterButton onClick={increment}> + </CounterButton>

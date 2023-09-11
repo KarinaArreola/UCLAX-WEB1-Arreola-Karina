@@ -74,10 +74,12 @@ const SmallStyled = styled.div`
     .mainMenu {
         position: fixed;
 
-        left: 0px;
-        top: 300px;
+        left: 60%;
+        top: 60px;
         right: 0px;
         bottom: 0px;
+
+        z-index: 1000;
 
         background-color: #041e42;
 
@@ -89,6 +91,8 @@ const SmallStyled = styled.div`
 
             color: white;
             text-decoration: none;
+
+            text-align: right;
 
             &:hover,
             &:active,

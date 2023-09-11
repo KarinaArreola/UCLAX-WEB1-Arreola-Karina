@@ -18,7 +18,8 @@ export const swimShopData = [
         description:
             "Engineered for race day performance, the Vanquisher suit collection combines lightweight dual fabrications with strategically placed seaming providing a flexible secure fit and the right amount of compression. Fast, Powerful, Flexible... Vanquisher.",
         name: "Vanquisher Solid Kneeskin",
-        price: "$140.00",
+        msrp: "$140.00",
+        price: "$98.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
     {
@@ -27,7 +28,8 @@ export const swimShopData = [
         description:
             "Engineered for race day performance, the Vanquisher suit collection combines lightweight dual fabrications with strategically placed seaming providing a flexible secure fit and the right amount of compression. Fast, Powerful, Flexible... Vanquisher.",
         name: "Vanquisher Solid Jammer",
-        price: "$100.00",
+        msrp: "$100.00",
+        price: "$70.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
     {
@@ -36,7 +38,8 @@ export const swimShopData = [
         description:
             "Our latest racing suit range is packed full of innovative features. Itâ€™s engineered to be powerful, flexible and fast. Three brand new fabrics along with new and advanced finishes are combined with our established world-leading Aqualab developed technology to introduce a new generation of Fastkin suits.",
         name: "Limited Edition Fastskin LZR Intent Open Back Kneeskin",
-        price: "$599.00",
+        msrp: "$599.00",
+        price: "$499.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
     {
@@ -45,7 +48,8 @@ export const swimShopData = [
         description:
             "Our latest racing suit range is packed full of innovative features. Itâ€™s engineered to be powerful, flexible and fast. Three brand new fabrics along with new and advanced finishes are combined with our established world-leading Aqualab developed technology to introduce a new generation of Fastkin suits.",
         name: "Limited Edition Fastskin LZR Intent Jammer",
-        price: "$399.00",
+        msrp: "$399.00",
+        price: "$279.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
     {
@@ -54,7 +58,8 @@ export const swimShopData = [
         description:
             "Engineered for race day performance, the Vanquisher suit collection combines lightweight dual fabrications with strategically placed seaming providing a flexible secure fit and the right amount of compression. Fast, Powerful, Flexible... Vanquisher.",
         name: "Limited Edition Fastskin LZR Pure Valor Open Back Kneeskin",
-        price: "$499.00",
+        msrp: "$499.00",
+        price: "$449.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
     {
@@ -63,7 +68,8 @@ export const swimShopData = [
         description:
             "Engineered for race day performance, the Vanquisher suit collection combines lightweight dual fabrications with strategically placed seaming providing a flexible secure fit and the right amount of compression. Fast, Powerful, Flexible... Vanquisher.",
         name: "Limited Edition Fastskin LZR Pure Valor Jammer",
-        price: "$365.00",
+        msrp: "$365.00",
+        price: "$273.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
     {
@@ -72,7 +78,8 @@ export const swimShopData = [
         description:
             "Engineered for race day performance, the Vanquisher suit collection combines lightweight dual fabrications with strategically placed seaming providing a flexible secure fit and the right amount of compression. Fast, Powerful, Flexible... Vanquisher.",
         name: "Vanquisher Printed Kneeskin",
-        price: "$150.00",
+        msrp: "$150.00",
+        price: "$105.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
     {
@@ -81,7 +88,8 @@ export const swimShopData = [
         description:
             "Engineered for race day performance, the Vanquisher suit collection combines lightweight dual fabrications with strategically placed seaming providing a flexible secure fit and the right amount of compression. Fast, Powerful, Flexible... Vanquisher.",
         name: "Vanquisher Printed Jammer",
-        price: "$110.00",
+        msrp: "$110.00",
+        price: "$82.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
     {
@@ -90,7 +98,8 @@ export const swimShopData = [
         description:
             "Engineered for race day performance, the Vanquisher suit collection combines lightweight dual fabrications with strategically placed seaming providing a flexible secure fit and the right amount of compression. Fast, Powerful, Flexible... Vanquisher.",
         name: "Vanquisher Printed Kneeskin",
-        price: "$150.00",
+        msrp: "$150.00",
+        price: "$105.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
     {
@@ -99,7 +108,8 @@ export const swimShopData = [
         description:
             "Engineered for race day performance, the Vanquisher suit collection combines lightweight dual fabrications with strategically placed seaming providing a flexible secure fit and the right amount of compression. Fast, Powerful, Flexible... Vanquisher.",
         name: "Vanquisher Printed Jammer",
-        price: "$110.00",
+        msrp: "$110.00",
+        price: "$82.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
     {
@@ -108,7 +118,8 @@ export const swimShopData = [
         description:
             "Engineered for race day performance, the Vanquisher suit collection combines lightweight dual fabrications with strategically placed seaming providing a flexible secure fit and the right amount of compression. Fast, Powerful, Flexible... Vanquisher.",
         name: "Fastskin LZR Printed Valor Open Back Kneeskin",
-        price: "$620.00",
+        msrp: "$620.00",
+        price: "$599.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
     {
@@ -117,7 +128,8 @@ export const swimShopData = [
         description:
             "Engineered for race day performance, the Vanquisher suit collection combines lightweight dual fabrications with strategically placed seaming providing a flexible secure fit and the right amount of compression. Fast, Powerful, Flexible... Vanquisher.",
         name: "Fastskin LZR Pure Valor Open Back Kneeskin",
-        price: "$680.00",
+        msrp: "$680.00",
+        price: "$620.00",
         sizes: ["18", "20", "22", "24", "26", "28", "30"],
     },
 ];

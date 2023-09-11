@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 /* Data ------------*/
 import { swimShopData } from "./swimShopData";
+import Price from "./Item/price";
 
 /*Components ------------*/
 import Item from "./Item/Item";
@@ -11,7 +12,9 @@ const SwimShopItemsList = () => {
         <SwimShopItemsListStyled className="SwimShopItemsList">
             {swimShopData.map((swimShopItem) => {
                 return (
-                    <Item key={swimShopItem.id} swimShopItem={swimShopItem} />
+                    <div key={swimShopItem.id}>
+                        <Item swimShopItem={swimShopItem} zoomScale={1} />
+                    </div>
                 );
             })}
         </SwimShopItemsListStyled>
@@ -25,3 +28,5 @@ const SwimShopItemsListStyled = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 1rem;
 `;
+
+const SwimShopItem = styled.div``;

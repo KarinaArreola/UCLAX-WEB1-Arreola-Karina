@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 /*Components ------------*/
 import Sizes from "./Sizes";
+
 <h5>Sizes:</h5>;
 const SizesList = ({ swimShopItem }) => {
     return (
@@ -17,5 +18,5 @@ const SizesList = ({ swimShopItem }) => {
 export default SizesList;
 
 const SizesListStyled = styled.div`
-    padding-top: 32px;
+    padding-bottom: 32px;
 `;

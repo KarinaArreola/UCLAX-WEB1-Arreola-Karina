@@ -12,18 +12,9 @@ const ItemDescription = ({ swimShopItem }) => {
 
     return (
         <ItemDescriptionStyled className="ItemDescription">
-            <div className="item-description">{swimShopItem.description}</div>
-
             <SizesList class="size-list" swimShopItem={swimShopItem} />
-            <div className="price">
-                <b>{swimShopItem.price}</b>
-            </div>
-            <div>
-                <CounterApp />
-            </div>
-            <div>
-                <Button onClick={addToCart}>Add to Cart</Button>
-            </div>
+            <CounterApp />
+            <Button onClick={addToCart}>Add to Cart</Button>
         </ItemDescriptionStyled>
     );
 };
@@ -32,13 +23,7 @@ export default ItemDescription;
 
 const ItemDescriptionStyled = styled.div`
     color: #4c4c4c;
-    padding: 16px;
-    font-size: 14px;
+    padding-left: 16px;
+    font-size: 16px;
     line-height: 1.5rem;
-
-    .price {
-        font-size: 24px;
-        margin-top: 32px;
-        margin-bottom: 32px;
-    }
 `;
