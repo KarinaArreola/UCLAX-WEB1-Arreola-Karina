@@ -10,12 +10,17 @@ const CounterApp = () => {
     };
 
     const decrement = () => {
-        setCount(count - 1);
+        if (count > 0) {
+            setCount(count - 1);
+        }
     };
 
     return (
         <div className="counter">
-            <CounterButton onClick={decrement}> - </CounterButton>
+            <CounterButton onClick={decrement} disabled={count === 0}>
+                {" "}
+                -{" "}
+            </CounterButton>
             <StyledCount>{count}</StyledCount>
             <CounterButton onClick={increment}> + </CounterButton>
         </div>
@@ -31,7 +36,6 @@ const ItemStyled = styled.div`
 `;
 
 const StyledCount = styled.b`
-    color: #000000;
     font-size: 20px;
     margin: 16px;
 `;
