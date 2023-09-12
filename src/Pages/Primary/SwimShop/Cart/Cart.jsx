@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import shoppingCart from "./img/shopping-cart.png";
+import shoppingCart from "../img/shopping-cart.png";
 import CartCount from "./CartCount";
 
 const Cart = () => {
@@ -17,9 +17,7 @@ const Cart = () => {
 
 export default Cart;
 
-const CartStyled = styled.div`
-    padding: 32px;
-`;
+const CartStyled = styled.div``;
 
 const ShopingCartWrapper = styled.div`
     position: relative; /* Make this container relative */

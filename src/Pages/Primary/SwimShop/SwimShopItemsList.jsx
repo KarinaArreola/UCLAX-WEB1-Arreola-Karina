@@ -25,7 +25,8 @@ export default SwimShopItemsList;
 const SwimShopItemsListStyled = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1rem;
+    gap: 1.5rem;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 32px;
 `;
-
-const SwimShopItem = styled.div``;
