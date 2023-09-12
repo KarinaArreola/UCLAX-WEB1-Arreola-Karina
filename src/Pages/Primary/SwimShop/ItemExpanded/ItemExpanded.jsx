@@ -7,6 +7,7 @@ import Item from "../../SwimShop/Item/Item";
 import { swimShopData } from "../../SwimShop/swimShopData";
 import ItemDescription from "../Item/ItemDescription";
 import shopingCart from "../img/shoping-cart.png";
+import Cart from "../Cart";
 
 const ItemExpanded = () => {
     const { swimShopId } = useParams();
@@ -15,7 +16,7 @@ const ItemExpanded = () => {
     return (
         <ItemExpandedStyled className="ItemExpanded">
             <InsetHalf>
-                <img className="cart" src={shopingCart} alt="shoping cart" />
+                <Cart />
             </InsetHalf>
             <InsetHalf>
                 <Item
