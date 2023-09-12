@@ -1,14 +1,15 @@
 import styled from "styled-components";
-
 import shoppingCart from "./img/shopping-cart.png";
 import CartCount from "./CartCount";
 
 const Cart = () => {
     return (
         <CartStyled className="Cart">
-            <CartCount />
             <ShopingCartWrapper>
                 <img className="cart" src={shoppingCart} alt="shopping cart" />
+                <CartCountStyled>
+                    <CartCount />
+                </CartCountStyled>
             </ShopingCartWrapper>
         </CartStyled>
     );
@@ -16,25 +17,21 @@ const Cart = () => {
 
 export default Cart;
 
-const CartStyled = styled.div``;
+const CartStyled = styled.div`
+    padding: 32px;
+`;
 
 const ShopingCartWrapper = styled.div`
-    position: relative;
-    display: inline-block;
-
-    &:hover .cart {
-        /* Add hover styles for the cart icon if needed */
-    }
+    position: relative; /* Make this container relative */
     .cart {
-        width: 32px; /* Adjust the width as needed */
-        margin-right: 16px;
+        width: 32px;
+        margin-right: 32px;
         float: right;
     }
+`;
 
-    /* Positioning for CartCount */
-    ${CartCount} {
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
+const CartCountStyled = styled.div`
+    position: absolute; /* Make CartCount absolute */
+    top: -8px; /* Adjust the top value to position it above the cart image */
+    right: 20px;
 `;
