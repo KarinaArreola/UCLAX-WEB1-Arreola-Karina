@@ -6,12 +6,10 @@ import Cart from "./Cart";
 const SwimShop = () => {
     return (
         <SwimShopStyled className="SwimShop">
-            <Inset>
+            <ContentWrapper>
                 <Cart />
-            </Inset>
-            <Inset>
                 <ItemsList />
-            </Inset>
+            </ContentWrapper>
         </SwimShopStyled>
     );
 };
@@ -19,3 +17,10 @@ const SwimShop = () => {
 export default SwimShop;
 
 const SwimShopStyled = styled.div``;
+
+const ContentWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align children to the right within the column */
+    padding-top: 16px;
+`;
