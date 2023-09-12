@@ -6,7 +6,6 @@ import InsetHalf from "../../../../Common/PagesLayout/InsetHalf";
 import Item from "../../SwimShop/Item/Item";
 import { swimShopData } from "../../SwimShop/swimShopData";
 import ItemDescription from "../Item/ItemDescription";
-import shopingCart from "../img/shoping-cart.png";
 import Cart from "../Cart";
 
 const ItemExpanded = () => {
